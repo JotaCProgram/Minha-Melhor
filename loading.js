@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Redireciona para outra página após 5 segundos
     setTimeout(() => {
-        window.location.href = 'https://jotacprogram.github.io/Karol-Best/page.html'; // Substitua pela URL desejada
+        window.location.href = 'https://jotacprogram.github.io/Minha-Melhor/page.html'; // Substitua pela URL desejada
     }, 7000);
 });
