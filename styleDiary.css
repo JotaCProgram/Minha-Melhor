@@ -1,0 +1,16 @@
+.textcontainerDiari {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+
+.textcontainerDiari a {
+    text-decoration: none;
+    color: #cc2a5d;
+}
+
+.textcontainerDiari {
+    bottom: 160px;
+    padding: 40px 0;
+
+}

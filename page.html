@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Melhor Best</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://jotacprogram.github.io/Karol-Best/Styles.css">
+    <link rel="stylesheet" href="https://jotacprogram.github.io/Karol-Best/hearts.Module.css">
+    <link rel="stylesheet" href="https://jotacprogram.github.io/Karol-Best/SVG.module.css">
+    <link rel="stylesheet" href="https://jotacprogram.github.io/Karol-Best/styleDiary.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jotacprogram.github.io/Karol-Best/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jotacprogram.github.io/Karol-Best/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jotacprogram.github.io/Karol-Best/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="https://jotacprogram.github.io/Karol-Best/favicon.ico">
+    <link rel="manifest" href="https://jotacprogram.github.io/Karol-Best/site.webmanifest">
+
+
+</head>
+<body>
+    <svg
+    id="playButton"
+    width="700px"
+    height="100px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    style="cursor: pointer; position: absolute; top: 20px; left: -70px;"
+    onclick="toggleAudio()"
+  >
+    <!-- Texto "Clique aqui!" -->
+    <text x="54" y="14" fill="#E91E63" font-size="12px" text-anchor="middle" text-transform="lowercase" dy="0.3em"> <-- Best ❤</text>
+
+    <!-- Ícone do botão de reprodução -->
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z"
+        stroke="#E91E63"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M9.62 17.3C10.7908 17.3 11.74 16.3509 11.74 15.1801C11.74 14.0092 10.7908 13.0601 9.62 13.0601C8.44915 13.0601 7.5 14.0092 7.5 15.1801C7.5 16.3509 8.44915 17.3 9.62 17.3Z"
+        stroke="#E91E63"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M11.74 15.18V7.77002"
+        stroke="#E91E63"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M13.13 6.7701L15.47 7.55006C16.04 7.74006 16.5 8.38006 16.5 8.98006V9.60005C16.5 10.4101 15.87 10.8601 15.11 10.6001L12.77 9.82008C12.2 9.63008 11.74 8.99009 11.74 8.39009V7.7701C11.74 6.9701 12.36 6.5101 13.13 6.7701Z"
+        stroke="#E91E63"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+    </svg>
+    <!-- Elemento para exibir o nome da música -->
+    <!-- Elemento para exibir o nome da música -->
+    <p id="musicName" style="position: absolute; top: 30px; left: 70px; font-family: 'Roboto', sans-serif; font-size: 0.8em; color: #4A4A4A; line-height: 1.6; text-align: center; margin: 20px 0; padding: 0 20px; max-width: 800px; margin-left: auto; margin-right: auto;"></p>
+
+    <audio id="audio" src="https://jotacprogram.github.io/Karol-Best/music.mp3"></audio>
+
+
+            <div class="textcontainer">
+                <span class="particletext hearts">Karol</span>
+                <p class="Paragraph">Best, Quando estiver se sentindo mal ou para baixo, entre aqui, e você vai se lembrar que tem uma pessoa que quer sempre o seu bem.</p>
+                <p class="love-declaration">Obrigado Por Ser Minha Melhor Metade do Mundo Inteiro!❤</p>
+            </div>
+
+     <div class="svg-container">
+            </div>
+            <div class="svg-container">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="375" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="e6c6583d52"><path d="M 114.421875 119 L 260.792969 119 L 260.792969 247.03125 L 114.421875 247.03125 Z M 114.421875 119 " clip-rule="nonzero" class="svg-elem-1"></path></clipPath><clipPath id="f7220a2f6a"><path d="M 120.214844 139.5625 C 108.367188 159.085938 116.714844 178.089844 127.207031 188.175781 L 188.550781 247.03125 L 248.601562 188.386719 C 258.359375 177.535156 262.101562 166.027344 260.023438 153.210938 C 257.152344 135.484375 242.546875 121.730469 224.5 119.769531 C 213.433594 118.578125 202.742188 121.707031 194.394531 128.644531 C 192.148438 130.507812 190.144531 132.59375 188.394531 134.859375 C 186.316406 132.28125 183.882812 129.917969 181.128906 127.824219 C 171.535156 120.535156 159.320312 117.636719 147.585938 119.890625 C 136.476562 122.035156 126.5 129.203125 120.214844 139.5625 Z M 120.214844 139.5625 " clip-rule="nonzero" class="svg-elem-2"></path></clipPath><clipPath id="4c4e72e87c"><path d="M 114.421875 119.144531 L 260.671875 119.144531 L 260.671875 247.03125 L 114.421875 247.03125 Z M 114.421875 119.144531 " clip-rule="nonzero" class="svg-elem-3"></path></clipPath><clipPath id="c5581008c1"><path d="M 120.214844 139.5625 C 108.367188 159.085938 116.714844 178.089844 127.207031 188.175781 L 188.550781 247.03125 L 248.601562 188.386719 C 258.359375 177.535156 262.101562 166.027344 260.023438 153.210938 C 257.152344 135.484375 242.546875 121.730469 224.5 119.769531 C 213.433594 118.578125 202.742188 121.707031 194.394531 128.640625 C 192.148438 130.507812 190.140625 132.59375 188.394531 134.859375 C 186.316406 132.28125 183.882812 129.917969 181.128906 127.824219 C 171.535156 120.535156 159.320312 117.636719 147.585938 119.890625 C 136.476562 122.035156 126.5 129.203125 120.214844 139.5625 Z M 120.214844 139.5625 " clip-rule="nonzero" class="svg-elem-4"></path></clipPath></defs><g clip-path="url(#e6c6583d52)"><g clip-path="url(#f7220a2f6a)"><path fill="#ff002e" d="M 114.421875 119.144531 L 260.792969 119.144531 L 260.792969 247.03125 L 114.421875 247.03125 Z M 114.421875 119.144531 " fill-opacity="1" fill-rule="nonzero" class="svg-elem-5"></path></g></g><g clip-path="url(#4c4e72e87c)"><g clip-path="url(#c5581008c1)"><path stroke-linecap="butt" transform="matrix(0.75, 0, 0, 0.75, 114.421747, 119.142957)" fill="none" stroke-linejoin="miter" d="M 7.72413 27.226059 C -8.072746 53.257311 3.057463 78.595854 17.047047 92.043772 L 98.838719 170.517735 L 178.906433 92.325022 C 191.91685 77.856271 196.906434 62.51252 194.135601 45.423977 C 190.307475 21.788559 170.833516 3.450016 146.771014 0.835432 C 132.015805 -0.753109 117.760596 3.418766 106.630387 12.663558 C 103.635595 15.153142 100.958511 17.934392 98.630386 20.955225 C 95.859553 17.517725 92.614761 14.366683 88.942885 11.575016 C 76.151218 1.856266 59.864758 -2.008318 44.218924 0.996891 C 29.406423 3.856266 16.104339 13.413558 7.72413 27.226059 Z M 7.72413 27.226059 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" class="svg-elem-6"></path></g></g></svg>
+            </div>
+        </div>
+
+        <div class="textcontainerDiari">
+            <a href="https://jotacprogram.github.io/BookLove/">Eu fiz um pequeno diario para ti</a>
+        </div>
+    
+    <script src="https://jotacprogram.github.io/Karol-Best/script.js"></script>
+    <script src="/frases.js"></script>
+    <script src="https://jotacprogram.github.io/Karol-Best/SVG.JS"></script>
+    <script src="https://jotacprogram.github.io/Karol-Best/Paragraph.js"></script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Adicionar evento de clique ao botão "Iniciar"
+            document.getElementById('playButton').addEventListener('click', function() {
+                // Ocultar botão "Iniciar"
+                this.style.display = 'none';
+                // Exibir conteúdo
+                document.getElementById('combinedContent').style.display = 'block';
+            });
+        });
+    </script>
+
+
+
+    <script>
+        function toggleAudio() {
+        const audio = document.getElementById('audio');
+        const musicNameElement = document.getElementById('musicName');
+    
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    
+        // Adiciona um evento para atualizar o nome da música quando começar a tocar
+        audio.addEventListener('play', function() {
+            // Atualiza o conteúdo do elemento com o nome da música
+        });
+    
+        // Adiciona um evento para limpar o nome da música quando a música parar
+        audio.addEventListener('pause', function() {
+            // Limpa o conteúdo do elemento
+            musicNameElement.textContent = "";
+        });
+        }
+    </script>
+    
+
+
+    <script>
+    // Texto da música \\
+    const musicName = "John Legend - Conversation in the Dark"; // Substitua pelo nome real da sua música
+
+    // Função para simular o efeito de digitação
+    function typeWriter(text, i, fnCallback) {
+        // Verifica se o índice é menor que o comprimento do texto
+        if (i < text.length) {
+        // Adiciona o próximo caractere ao texto
+        document.getElementById("musicName").textContent += text.charAt(i);
+        // Incrementa o índice
+        i++;
+        // Chama a função novamente após um intervalo de tempo
+        setTimeout(function() {
+            typeWriter(text, i, fnCallback)
+        }, 50); // Ajuste a velocidade do efeito aqui (em milissegundos)
+        } else if (typeof fnCallback == 'function') {
+        // Se fnCallback é uma função, chama-a após o efeito de digitação
+        fnCallback();
+        }
+    }
+
+    // Função para limpar o nome da música
+    function clearMusicName() {
+        document.getElementById("musicName").textContent = "";
+    }
+
+    // Adiciona um evento para atualizar o nome da música quando começar a tocar
+    document.getElementById('audio').addEventListener('play', function() {
+        // Chama a função para simular o efeito de digitação com o nome da música
+        typeWriter(musicName, 0, function() {
+        // Define um temporizador para limpar o nome da música após 5 segundos
+        setTimeout(clearMusicName, 5000);
+        });
+    });
+    </script>
+    
+
+</body>
+
+</html>

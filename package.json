@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.75.0"
+  },
+  "scripts": {
+    "build-css": "node-sass --output-style compressed scss/ -o css/"
+  }
+}

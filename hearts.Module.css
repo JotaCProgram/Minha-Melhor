@@ -1,0 +1,45 @@
+.textcontainer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.particletext.hearts {
+    font-size: 48px;
+    color: #E91E63; /* Um tom de rosa vibrante */
+    position: relative;
+}
+
+.love-declaration {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+/* Animação de fade in */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Animação de fade out */
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  /* Classe que aplicará a animação de fade in */
+  .fade-in {
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  /* Classe que aplicará a animação de fade out */
+  .fade-out {
+    animation: fadeOut 1s ease forwards;
+  }
+  
