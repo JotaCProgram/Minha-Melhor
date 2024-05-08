@@ -24,7 +24,7 @@ function carregarFraseAleatoria(frases) {
 }
 
 // Carrega todas as frases uma vez e as mantém em memória para evitar recarregar o JSON
-fetch('https://jotacprogram.github.io/Karol-Best/Frases.json')
+fetch('https://jotacprogram.github.io/Minha-Melhor/Frases.json')
     .then(response => response.json())
     .then(frases => {
         // Inicializa a lista de frases disponíveis
